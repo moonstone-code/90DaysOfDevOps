@@ -53,6 +53,4 @@ Task: What is the linux command to
         > Orange,
         > Guava
 
-
-
-Reference: https://www.linkedin.com/pulse/linux-commands-devops-used-day-to-day-activit-chetan-/
+ # day 3 is completed
