@@ -4,7 +4,7 @@ If you noticed that there are total 90 sub directories in the directory '2023' o
 
 All 90 directories within seconds using a simple command.
 
-` mkdir day{1..90}`
+` mkdir day{1..90}` `yes`
 
 ### Tasks 
 1) You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
