@@ -32,19 +32,19 @@
     
  - Write a Shell Script to take user input, input from arguments and print the variables.
      `vi filename.sh`
-    # write the script
+    --- write the script
     `#!/bin/bash` 
     `echo "I will complete #90DaysOofDevOps challenge"`
     `read -p "Enter your age"`
     `echo "your age is $1 "`
     `echo your first argument is $1`
     `echo your second argument is $2`
-    # dont add space in between variable name and its value
+    --- dont add space in between variable name and its value
     `name="KAMAL" ` 
     `echo "${name} has print the variable name and also work with arguments"`
-    # then save and close this with below command
+    --- then save and close this with below command
     `:wq`
-    # call file `bash filename.sh`
+    --- call file `bash filename.sh`
     # [ref link for answer 2](./bash_img_2.PNG)
     
  - Write an Example of If else in Shell Scripting by comparing 2 numbers

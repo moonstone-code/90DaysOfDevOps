@@ -16,6 +16,20 @@ Example 1: When the script is executed as
 ```./createDirectories.sh day 1 90```
 
 then it creates 90 directories as ```day1 day2 day3 .... day90```
+# answer 
+     `vi createDirectories.sh`
+    --- write the script
+    `#!/bin/bash` 
+    `echo "FileName Prefix=$1`
+    `echo "From Suffix=$2`
+    `echo "To Suffix=$3`
+    `mkdir $1{$2..43}`
+    `echo "File created scussefully"` 
+    --- don't add space in between variable name and its value
+    --- then save and close this with below command
+    `:wq`
+    --- call file `bash createDirectories.sh day 1 90`
+__________________________________
 
 Example 2: When the script is executed as
 
